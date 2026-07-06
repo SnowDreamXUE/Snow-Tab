@@ -331,7 +331,7 @@ function onInput() {
   backdrop-filter: blur(20px) saturate(1.8);
   -webkit-backdrop-filter: blur(20px) saturate(1.8);
   border: 1px solid rgba(0, 0, 0, 0.08);
-  border-radius: 16px;
+  border-radius: 27px;
   box-shadow:
       0 2px 12px rgba(0, 0, 0, 0.06),
       0 1px 3px rgba(0, 0, 0, 0.04);
@@ -351,7 +351,7 @@ function onInput() {
   display: flex;
   align-items: center;
   gap: 5px;
-  padding: 0 6px 0 14px;
+  padding: 0 6px 0 20px;
   height: 100%;
   background: none;
   border: none;
@@ -449,11 +449,11 @@ function onInput() {
   align-items: center;
   justify-content: center;
   width: 42px;
-  height: 36px;
+  height: 42px;
   margin-right: 7px;
-  border-radius: 11px;
+  border-radius: 21px;
   border: none;
-  background: #2b2b2b;
+  background: #7EC8E3;
   color: #fff;
   cursor: pointer;
   flex-shrink: 0;
@@ -461,7 +461,7 @@ function onInput() {
 }
 
 .search-btn:hover {
-  background: #111;
+  background: #5BA4C9;
 }
 
 .search-btn:active {
