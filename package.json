@@ -1,12 +1,13 @@
 {
   "name": "snow-tab",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc -b && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "build:crx": "npm run build && node scripts/copy-manifest.js"
   },
   "dependencies": {
     "vue": "^3.5.39"
